@@ -1,0 +1,5 @@
+# Construir la imagen Docker
+docker build -t test .
+
+# Ejecutar el contenedor Docker
+docker run -p 3005:3005 test
